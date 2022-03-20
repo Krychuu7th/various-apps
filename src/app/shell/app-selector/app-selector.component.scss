@@ -1,0 +1,24 @@
+@import 'variables';
+
+.app-selector-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60vw;
+    padding: 30px 20px;
+    background-color: $color-grey-dark;
+    border-radius: 20px;
+
+    .app-logo-container {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 20px;
+        max-width: 280px;
+
+        figcaption {
+            color: $color-primary;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+}

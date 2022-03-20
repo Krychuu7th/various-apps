@@ -1,0 +1,11 @@
+@import 'variables';
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+
+    h1 {
+       color: $color-grey-dark; 
+    }
+}
